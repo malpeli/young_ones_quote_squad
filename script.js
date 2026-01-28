@@ -108,13 +108,42 @@ const quotes = [
   "Oh, no. It's the holocaust!",
   "I'm going to form a new union society, right? With me a president! 'People Who Don't Pay Their TV Licenses Against the Nazis!",
   "If I had a penny for everytime I had to answer the door, I'd have five pound, sixty-three!",
-  "I can't go to prison! I'm too pretty! I'll get raped!"
+  "I can't go to prison! I'm too pretty! I'll get raped!",
+  "Lads, I've told we don't have a telly and I think that's thrown him a bit, but it won't hold him forever!",
+  "It was the other three, not me. I had no idea what was going on, it really was the other three!",
+  "Well, it's better than playing with yourself! Ho ho! A cheap sexual illusion, makes the world go round!",
+  "Bastard's the name! But you can call me right bleeding, all my friends do, or did",
+  "As the eunuch said to Mussolini, 'I haven't got one, and if I did, I wouldn't show it to you!",
+  "The old trick, eh? Eat the telly before I get a chance to nick you!",
+  "It's a toaster!",
+  "I know how to wait! And I promise you, son, when that telly comes out the other end, you're nicked!",
+  "It's alright, lads! I always poo before I get up!",
+  "I'm going upstairs to get in incredibly helpful and informative 'Protect and Survive' manual! Nobody better touch this while I'm gone!",
+  "Why won't it go off, Mike?",
+  "For someone who actually believes the lyrics to 'Devil Woman' have got something to say!",
+  "Well, I'm going to tell Thatcher that we've got a bomb. And if she doesn't do something to help 'the kids' by this afternoon, we're going to blow up England!",
+  "If people weren't sick, we wouldn't need penicillin!",
+  "I won't say anything becasue no one ever listens to me anyway! I might as well be a Leonard Cohen record!",
+  "So, is that the atom bomb is it, eh? Oooh, Naaaa, not in that colour, you know what I mean?",
+  "Laugh? Laugh, I nearly went to Ethiopia. Second class of course!",
+  "You're a right little five speed gearbox aren't you?",
+  "You should have been here earlier, I holed in one! Mind you, I was playing pinball in the clubhouse!",
+  "I'm tying my dog to the railroad track. Choo-choo train's gonna break his back",
+  "Well Ive got news for you. I think old people are really boring and the only reason you don't understand our music is because you don't like it!",
+  "Nothing but scroungers and horrid old people and workshy layabouts all wandering around clutching their Giros' and trying to get something for nothing",
+  "Thatcher, Weve got a bomb, do what we want, or well blow it up. Signed, Anon",
+  "A man with a handhul of takeaways is either very hungry, or knows someone that's very hungry",
+  "There, that's all taken care off. By this time tomorrow everybody will be free and there will be no more racial prejudice or hatred! Get up, Neil! I hate you!",
+  "Ya bunch of lavatory bowls!",
+  "I hope this isn't a dud!",
+  "I know, drape Neil over it! It might sort of cover up the blast!"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
