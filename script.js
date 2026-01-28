@@ -90,8 +90,8 @@ const quotes = [
   "They're dubbing that sound on! That's never real!",
   "Well, that's it. We're sorry we couldn't show you 'The Bastard Squad', but at least we got the mad coon with the gun, eh?",
   "You hum it, I'll smash your face in!",
-  "Okay, I want a pint of water in a straight glass, a bag of roast ox crisps, and mine's a babysham!,
-  "Ooer! He is a bastard, isn't he?,
+  "Okay, I want a pint of water in a straight glass, a bag of roast ox crisps, and mine's a babysham!",
+  "Ooer! He is a bastard, isn't he?",
   "Are you coming, Mike, or are you still talking to the old bag about your herpes?",
   "I reckon if I played me cards right I could have, you know...",
   "Neil? Have you just farted?",
@@ -99,13 +99,14 @@ const quotes = [
   "Oh oh oh, don't we sound proper, Mr. Rasta's chocolate drop!",
   "That's white man's electricity you're burning ringing that doorbell. That's theft! I've got your number, so hold out your hand!",
   "Whose been gobbing in my lentils?",
-  "Lads? It's two o'clock in the afternoon! Maybe it's time we got up!"  
+  "Lads? It's two o'clock in the afternoon! Maybe it's time we got up!"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
