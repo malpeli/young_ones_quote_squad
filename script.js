@@ -136,13 +136,34 @@ const quotes = [
   "There, that's all taken care off. By this time tomorrow everybody will be free and there will be no more racial prejudice or hatred! Get up, Neil! I hate you!",
   "Ya bunch of lavatory bowls!",
   "I hope this isn't a dud!",
-  "I know, drape Neil over it! It might sort of cover up the blast!"
+  "I know, drape Neil over it! It might sort of cover up the blast!",
+  "I thought the vacuum cleaner looked a bit on the tentative side so I souped it up a bit",
+  "It's a hippie, isn't it. Tell it to get out. This isn't a Youth Hostel, you know?",
+  "The BBC would like to warn all small children that pushing people inside old fridges is a bloody stupid thing to do!",
+  "Don't eat all the Cornflakes, Rik, there's only one each!",
+  "There's plenty of henna dip, Rik",
+  "Have you said yes, hippie?",
+  "Ah! A locust!",
+  "Behold! The beast!",
+  "Behold Armageddon, and the Four Horsemen of the Apocalypse. Famine, Pestilence, Death... and the other one",
+  "Is that a seagull? Tell me, is that seagull a seagull?",
+  "Microchip technology - that's quite a new thing, isn't it?",
+  "I'll be dead soon if I don't get something to eat. How about a bloody sandwich?",
+  "I beheld a medium sized group of people running around madly, waving their hands and shrieking ‘Twelve score oxen have spent over a year in the same field!",
+  "Well that's just typical! Five minutes to go to the most important party of my life and half the house has been wrecked by a gigantic sandwich!",
+  "Shut up, you girl!",
+  "OK, pop music - lets go! Anyone here like the Human League?",
+  "It's a telescope - a telescope with a mouse in it - bwilliant!",
+  "I blew up a rubber johnny actually in the union bar. It was hilarious - everybody thought so",
+  "I don't think we're gonna get in. I think it's a hippie?",
+  "That's nothing. I kissed two girls on the lips last week!"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
