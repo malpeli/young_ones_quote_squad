@@ -54,7 +54,7 @@ const quotes = [
   "Well, I think it looks like a giant lavatory",
   "Neil, your bedroom's on fire!",
   "I don't have six pairs of hands, you know? I wish I had, but I haven't!",
-  "You'd do anything to try and impress me, wouldn't you, Neil?,
+  "You'd do anything to try and impress me, wouldn't you, Neil?",
   "Neil, let's not beat around the bush. Are you going to make supper, or am I going to kick your teeth in?",
   "I've got a stiff. Know what I mean?",
   "Oh, that's right, Neil, yeah! Lounge around! Have a good time, while we starve to death! Beatnik!",
@@ -106,6 +106,7 @@ document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
