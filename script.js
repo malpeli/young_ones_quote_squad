@@ -99,13 +99,23 @@ const quotes = [
   "Oh oh oh, don't we sound proper, Mr. Rasta's chocolate drop!",
   "That's white man's electricity you're burning ringing that doorbell. That's theft! I've got your number, so hold out your hand!",
   "Whose been gobbing in my lentils?",
-  "Lads? It's two o'clock in the afternoon! Maybe it's time we got up!"
+  "Lads? It's two o'clock in the afternoon! Maybe it's time we got up!",
+  "And was I consulted, pally? How do you think I feel stinking like a student's armpit?",
+  "I know 'standing on the landing' may be a great song title, to me it's just a tax loss. So make space for the face that forced the abortion issue!",
+  "That means we'll have to have raw tea again!",
+  "Cornflakes for breakfast! That's disugsting, Neil!",
+  "I wish I'd had time for a crap before we started!",
+  "Oh, no. It's the holocaust!",
+  "I'm going to form a new union society, right? With me a president! 'People Who Don't Pay Their TV Licenses Against the Nazis!",
+  "If I had a penny for everytime I had to answer the door, I'd have five pound, sixty-three!",
+  "I can't go to prison! I'm too pretty! I'll get raped!"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
