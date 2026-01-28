@@ -48,12 +48,12 @@ const quotes = [
   "Well I'm standing up here on this scaffolding because that's what this program is all about! Shock! Yeah! Right! Okay!",
   "But that doesn't mean I want you to seduce my parrot!",
   "Now what I think is if the kids are united, we will never be divided!",
-  "Some of these bricks explode! That's good, innit?",
-  "Oh, uh... I'm being hassled in the street by a chick!"
+  "Some of these bricks explode! That's good, innit?"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
