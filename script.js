@@ -58,7 +58,7 @@ const quotes = [
   "Neil, let's not beat around the bush. Are you going to make supper, or am I going to kick your teeth in?",
   "I've got a stiff. Know what I mean?",
   "Oh, that's right, Neil, yeah! Lounge around! Have a good time, while we starve to death! Beatnik!",
-  "Do you really think that anyone has ever been the slightest bit interested in anything you say or do ever, Neil?!",
+  "Do you really think that anyone has ever been the slightest bit interested in anything you say or do ever, Neil?",
   "Five pounds to get in my own bedroom?! Hah! What have you done, turned it into a roller disco?",
   "Look, man. Either strut your stuff, or bug off!",
   "But listen, Guv'nor. This little Herbert was bothering the gentleman and the young ladies while they were shaking their booties to the ground. Know what I mean?",
@@ -106,6 +106,7 @@ document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
