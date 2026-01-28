@@ -4,7 +4,7 @@ const quotes = [
   "This calls for a celebration! Vyv, throw another record player on the fire",
   "Bwilliant! Squatting! Youth contwol, no wrent!",
   "Hands up who likes me!",
-  "I wouldn't eve discuss the colour of orange juice with you, Neil!",
+  "I wouldn't even discuss the colour of orange juice with you, Neil!",
   "Think once! Think twice! Think DON'T DRIVE YOUR CAR ON THE PAVEMENT!",
   "If you're going to be that sycophantic, why don't you go 'round there now and stick your tongue straight down the back of his trousers?",
   "Darling Fascist Bullyboy, Give me some more money, you bastard. May the seed of your loin be fruitful in the belly of your woman, Neil",
@@ -174,13 +174,19 @@ const quotes = [
   "Oh! Coca-Cola! Symbol of free West! Oh!  Oh, I like Coca-Cola",
   "That's just typical of you, Vyvyan! The house is under fifty feet of water and what do you do, build a submarine!",
   "Scaredy cat, scaredy cat! Sitting on the doormat! All the little doggie-wogs... will have a little bit of it...",
-  "Oh, not that speaker! Jimi Hendrix once pissed on that!"
+  "Oh, not that speaker! Jimi Hendrix once pissed on that!",
+  "Answer the phone, Neil!",
+  "Hands up, who likes me!",
+  "Vyv, Vyv, uh, can you, like, actually kill yourself with laxative pills?",
+  "This house will become a shrine! And punks and skins and Rastas will all gather round and all hold their hands in sorrow for their fallen leader! And all the grown-ups will say, 'But why are the kids crying?' And the kids will say, 'Haven't you heard? Rick is dead! The People's Poet is dead!",
+  "Don't look at me, I'm irrelevant"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
