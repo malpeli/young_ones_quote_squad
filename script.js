@@ -118,7 +118,7 @@ const quotes = [
   "It's a toaster!",
   "I know how to wait! And I promise you, son, when that telly comes out the other end, you're nicked!",
   "It's alright, lads! I always poo before I get up!",
-  "I'm going upstairs to get in incredibly helpful and informative 'Protect and Survive' manual! Nobody better touch this while I'm gone!",
+  "I'm going upstairs to get the incredibly helpful and informative 'Protect and Survive' manual! Nobody better touch this while I'm gone!",
   "Why won't it go off, Mike?",
   "For someone who actually believes the lyrics to 'Devil Woman' have got something to say!",
   "Well, I'm going to tell Thatcher that we've got a bomb. And if she doesn't do something to help 'the kids' by this afternoon, we're going to blow up England!",
@@ -186,6 +186,7 @@ document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
