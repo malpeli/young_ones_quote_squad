@@ -33,10 +33,10 @@ const quotes = [
   "Neil! Are these lentils South African?",
   "What are you doing, Neil? To make a meal, Neil? Surreal! From totalitarian vegetables! How much does it cost, Neil?",
   "I'm not paying you money to eat black men! I could become a pig and do that for free! Right on!",
-  "Like, when the trap door opens, and I, like, die, it lights Joss Sticks and plays "Rock Around The Clock" it's totally amazing",
+  "Like, when the trap door opens, and I, like, die, it lights Joss Sticks and plays Rock Around The Clock it's totally amazing",
   "Oh, far out. Really great. WOODSTOCK!",
   "I'm supposed to write an essay on it, right, but... I think I'm just gonna stick it on the bonnet of my car!",
-  "I think "Special Patrol Group" is a stupid name for a hamster!",
+  "I think Special Patrol Group is a stupid name for a hamster!",
   "Well, let's put the rent up by a third!",
   "What that lad needs is a good hard DING DING!",
   "Hello, Mike, my little Thunderbird puppet! Thunderbirds are go, yes?",
@@ -56,3 +56,4 @@ document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
