@@ -48,12 +48,43 @@ const quotes = [
   "Well I'm standing up here on this scaffolding because that's what this program is all about! Shock! Yeah! Right! Okay!",
   "But that doesn't mean I want you to seduce my parrot!",
   "Now what I think is if the kids are united, we will never be divided!",
-  "Some of these bricks explode! That's good, innit?"
+  "Some of these bricks explode! That's good, innit?",
+  "Stop making him paranoid, you slag!",
+  "Oh wow, I really hope we don't have a crash",
+  "Well, I think it looks like a giant lavatory",
+  "Neil, your bedroom's on fire!",
+  "I don't have six pairs of hands, you know? I wish I had, but I haven't!",
+  "You'd do anything to try and impress me, wouldn't you, Neil?,
+  "Neil, let's not beat around the bush. Are you going to make supper, or am I going to kick your teeth in?",
+  "I've got a stiff. Know what I mean?",
+  "Oh, that's right, Neil, yeah! Lounge around! Have a good time, while we starve to death! Beatnik!",
+  "Do you really think that anyone has ever been the slightest bit interested in anything you say or do ever, Neil?!,
+  "Five pounds to get in my own bedroom?! Hah! What have you done, turned it into a roller disco?",
+  "Look, man. Either strut your stuff, or bug off!",
+  "But listen, Guv'nor. This little Herbert was bothering the gentleman and the young ladies while they were shaking their booties to the ground. Know what I mean?",
+  "What'd you just say? You just called me a bastard, didn't you?",
+  "Listen, man. Sleep gives you cancer. Everyone knows that.",
+  "Listen, Neil. Do you know the difference between you and some number twos? Nothing!",
+  "I'll teach you to try and assassinate the President!",
+  "Haha! Missed both my legs!",
+  "Viva El Presidente!",
+  "Hello, are you the Czar?! Yes, I am, actually. Blam blam! Tough luck, fascist!",
+  "My name is Alexei Yuri Gagarin Siege of Stalingrad Glorious Five-Year Plan Sputnik Pravda Moscow Dynamo Back Four Balowski. Me Dad was a bit of a Communist, know what I mean?",
+  "Stuff the revolution. Where's my 200 quid?",
+  "God, you'd think Devil Woman had never been written!",
+  "Cornflakes. Cornflakes. Cornflakes, Cornflakes, Cornflakes. Cornflakes, Cornflakes, Cornflakes, Cornflakes!",
+  "Oh, dear me! Poor old Neil's getting bored! The most boring person in the whole world is finally getting a taste of his own medicine!",
+  "Guys! Guys! Look at us! Sqwabbling! Bickerwing, like children. What's happened to us? We never used to be like this!",
+  "You have won second prize in a beauty contest! Smash Rick over the head with the bank",
+  "Congratulations! It is your birthday! You may set fire to Rick's bed!",
+  "Get out of Jail free! You may keep this card, sell it, or stick it up Rick's bottom!",
+  "You know, living in a world where nothing boring ever happens can be a real pisser"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
