@@ -187,13 +187,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const quoteDisplay = document.getElementById("quote");
   const twitterButton = document.getElementById("twitter-share");
   const facebookButton = document.getElementById("facebook-share");
-  const copyButton = document.getElementById("copy-quote");
-  const copyMessage = document.getElementById("copy-message");
   quoteButton.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const newQuote = quotes[randomIndex];
     quoteDisplay.textContent = newQuote;
-    copyMessage.textContent = ""; // clear previous message
   });
   twitterButton.addEventListener("click", () => {
     const text = encodeURIComponent(quoteDisplay.textContent + " #TheYoungOnes");
@@ -204,17 +201,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const text = encodeURIComponent(quoteDisplay.textContent);
     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=&quote=${text}`;
     window.open(facebookUrl, "_blank");
-  });
-  copyButton.addEventListener("click", async () => {
-    try {
-      const textToCopy = quoteDisplay.textContent;
-      await navigator.clipboard.writeText(textToCopy);
-      copyMessage.textContent = "✅ Quote copied to clipboard!";
-      setTimeout(() => (copyMessage.textContent = ""), 2000);
-    } catch (err) {
-      copyMessage.textContent = "❌ Failed to copy.";
-      console.error("Clipboard error:", err);
-    }
   });
 });
 
