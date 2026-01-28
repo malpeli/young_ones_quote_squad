@@ -156,13 +156,32 @@ const quotes = [
   "It's a telescope - a telescope with a mouse in it - bwilliant!",
   "I blew up a rubber johnny actually in the union bar. It was hilarious - everybody thought so",
   "I don't think we're gonna get in. I think it's a hippie?",
-  "That's nothing. I kissed two girls on the lips last week!"
+  "That's nothing. I kissed two girls on the lips last week!",
+  "Hi, I'm Colin, from Ent. and I've been appointed by the social sector as joke compiler for this year's rag mag. Do you know any good jokes? It's for charity, you know!",
+  "No, no! In the pit!",
+  "Being Scottish and Jewish: two racial stereotypes for the price of one, perhaps the best value in the graveyard this morning. Perhaps not. Incidentally, just let me say how pleased I am to be here in the graveyard, where so many other comedians have died before me",
+  "God, I'm bored! I might as well be listening to Genesis!",
+  "It's called, 'SS Death Camp Criminal Battalion go to Monte Casino for the Massacre'",
+  "For one man to love another, Vyvyan, is not poofy. It's actually very beautiful. It's only when they start touching each others bottoms that it gets poofy",
+  "Dan Dare touches The Mekon's bottom!' 'Exciting new story: Batman gooses the Joker's crack!",
+  "What do you think you're doing, pig? THWACK! Do you really give a fig, pig? BAM! And what's your favourite sort of gig, pig? Barry Manilow or the Black and White Minstrel Show? BOKKO!",
+  "Yeah, where's the bloody vindaloo, hippie?",
+  "Everything! Right. Lentils... wallpaper...",
+  "You know, I just bet a bit later on somebody does drink that and turns into an axe-wielding, homicidal maniac!",
+  "This may sound like a stupid question: Lip nip nip nip bip?",
+  "People like you should be put in little boxes, tied up with string, and left in small dark rooms with out any electricity! For a month!",
+  "Shirley? Is that your name, then? Shirley?",
+  "Oh! Coca-Cola! Symbol of free West! Oh!  Oh, I like Coca-Cola",
+  "That's just typical of you, Vyvyan! The house is under fifty feet of water and what do you do, build a submarine!",
+  "Scaredy cat, scaredy cat! Sitting on the doormat! All the little doggie-wogs... will have a little bit of it...",
+  "Oh, not that speaker! Jimi Hendrix once pissed on that!"
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
