@@ -38,13 +38,6 @@ button:hover {
   background-color: #ffa733;
 }
 
-.copy-message {
-  color: #0f0;
-  font-size: 0.9em;
-  margin-top: 10px;
-  height: 1em;
-}
-
 h1 {
   color: #ff7b00;
 }
@@ -73,4 +66,5 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
