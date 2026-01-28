@@ -49,7 +49,7 @@ const quotes = [
   "But that doesn't mean I want you to seduce my parrot!",
   "Now what I think is if the kids are united, we will never be divided!",
   "Some of these bricks explode! That's good, innit?",
-  "Stop making him paranoid, you slag!",
+  "Stop making him pawanoid, you slag!",
   "Oh wow, I really hope we don't have a crash",
   "Well, I think it looks like a giant lavatory",
   "Neil, your bedroom's on fire!",
@@ -78,13 +78,35 @@ const quotes = [
   "You have won second prize in a beauty contest! Smash Rick over the head with the bank",
   "Congratulations! It is your birthday! You may set fire to Rick's bed!",
   "Get out of Jail free! You may keep this card, sell it, or stick it up Rick's bottom!",
-  "You know, living in a world where nothing boring ever happens can be a real pisser"
+  "You know, living in a world where nothing boring ever happens can be a real pisser",
+  "The King is bored shitless with interesting things, Minion, and so am I",
+  "Ahem, don't worry, goldfish everywhere. I am in fact a stunt goldfish. In fact, by the time this program comes out, I will be doing the new James Bond film. So, there's no need to write in",
+  "Oh, hello, pussycat! It's your Uncle Billy. Here! What you doin in a bucket?",
+  "Come on, everybody, let's play Daleks! Exterminate! Exterminate! Exterminate! Exterminate!",
+  "Are we ready, clocks?",
+  "It sounds, right, it sounds like two elephants on a motorbike riding round and round, while a seal bangs a kipper on the table",
+  "What is it now, Ralph?!?",
+  "A man, believed to be a lunatic foreign terrorist, one of those greaseball raving reds who seem to crop up everywhere since we stopped running the world, is now taking refuge in an insanitary slum dwelling in North London",
+  "They're dubbing that sound on! That's never real!",
+  "Well, that's it. We're sorry we couldn't show you 'The Bastard Squad', but at least we got the mad coon with the gun, eh?",
+  "You hum it, I'll smash your face in!",
+  "Okay, I want a pint of water in a straight glass, a bag of roast ox crisps, and mine's a babysham!,
+  "Ooer! He is a bastard, isn't he?,
+  "Are you coming, Mike, or are you still talking to the old bag about your herpes?",
+  "I reckon if I played me cards right I could have, you know...",
+  "Neil? Have you just farted?",
+  "Oh, look. A little girl! Meditate on this!",
+  "Oh oh oh, don't we sound proper, Mr. Rasta's chocolate drop!",
+  "That's white man's electricity you're burning ringing that doorbell. That's theft! I've got your number, so hold out your hand!",
+  "Whose been gobbing in my lentils?",
+  "Lads? It's two o'clock in the afternoon! Maybe it's time we got up!"  
 ];
 
 document.getElementById("new-quote").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").textContent = quotes[randomIndex];
 });
+
 
 
 
