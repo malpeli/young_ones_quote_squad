@@ -17,7 +17,7 @@ body {
   text-align: center
   z-index: 1000;
 }
-.container {
+container {
   text-align: center;
   background: #222;
   padding: 40px;
@@ -73,6 +73,7 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
 
