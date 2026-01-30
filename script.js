@@ -293,7 +293,6 @@ const quotes = [
   "I find the idea of spending a night with you completely revolting!",
   "Anyway, it just goes to show you, Neil. Even when I'm unconscious, I can pick up the birds. I mean, forge meaningful relationships with birds...chicks...tarts...women. Women!",
   "At one stage, she even took her bwa off!",
-  "It's a nice day for it, isn't it? Oh, no, I didn't mean for It. I meant, it's a nice day for weather",
   "I know what you're thinking, baby. And if I was the telly, you'd think I was talking in centimetres",
   "Sounds like the kind of name someone would give to someone who looks as if they'd been to Hell and back, isn't it?",
   "Get down and groove! We dance all day in this house!",
@@ -376,6 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
