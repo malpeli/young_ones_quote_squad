@@ -194,7 +194,7 @@ const quotes = [
   "Oh, cock-a-doodle-doo, Neil! What are you talking about?",
   "Swotting away for teacher like a total spazmo!",
   "I'm asking you to test me on it, not throw up on it!",
-  "PRik is a wonker. Signed, the rest of the class",
+  "Prick is a wonker. Signed, the rest of the class",
   "Shut up AND tell you the answer?",
   "Crop rotation in the 14th century was considerably more widespread after John?",
   "Do Not Lean Out of the Window. I wonder why?",
@@ -292,8 +292,9 @@ const quotes = [
   "Look out, Michaelangelo, here comes the new piggie Renaissance!",
   "I find the idea of spending a night with you completely revolting!",
   "Anyway, it just goes to show you, Neil. Even when I'm unconscious, I can pick up the birds. I mean, forge meaningful relationships with birds...chicks...tarts...women. Women!",
-  "At one stage, she even took her bwa off!",
-  "I know what you're thinking, baby. And if I was to tell you, you'd think I was talking in centimetres",
+  "At one stage, she even took her bra off!"
+  "It's a nice day for it, isn't it? Oh, no, I didn't mean for It. I meant, it's a nice day for weather",
+  "I know what you're thinking, baby. And if I was the telly, you'd think I was talking in centimetres",
   "Sounds like the kind of name someone would give to someone who looks as if they'd been to Hell and back, isn't it?",
   "Get down and groove! We dance all day in this house!",
   "Rik, you bloody liar! You said you done it to her... He said he done it to you!",
@@ -375,6 +376,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
