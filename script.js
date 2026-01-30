@@ -228,8 +228,8 @@ const quotes = [
   "Do you dig graves?",
   "What's this camera? Is this Game For A Laugh? Have you killed someone as a prank?",
   "Neil! The bathrooms free! Unlike the country under the Thatcher-ite junta!",
-  "What do you know about the beans?,
-  "Oh come off it Neil! Where's your spunk?!?",
+  "What do you know about the beans?",
+  "Oh come off it Neil! Where's your spunk?!",
   "What are you planning to do, photosynthesise?",
   "Yes, we've got a video!",
   "Oh, touchÈ, Vyvyan. What devastating repartee. Talk about Oscar Wilde",
@@ -308,6 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
