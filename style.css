@@ -11,13 +11,13 @@ body {
 }
 .top-graphic {
   position: fixed;
-  top: 0;
-  left: 50%;
+  top: 50%;
+  left: 0;
   width: 100%;
   text-align: center
   z-index: 1000;
 }
-container {
+.container {
   text-align: center;
   background: #222;
   padding: 40px;
@@ -73,6 +73,7 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
 
