@@ -8,7 +8,11 @@ body {
   height: 100vh;
   margin: 0;
 }
-
+.top-graphic {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 .container {
   text-align: center;
   background: #222;
@@ -21,7 +25,6 @@ body {
 .share-buttons {
   margin-top: 15px;
 }
-
 button {
   background-color: #ff7b00;
   border: none;
@@ -66,5 +69,6 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
