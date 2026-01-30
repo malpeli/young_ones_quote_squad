@@ -7,7 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  padding-top: 308px;
+  padding-top: 100px;
 }
 .top-graphic {
   position: fixed;
@@ -73,6 +73,7 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
 
