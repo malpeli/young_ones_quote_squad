@@ -75,9 +75,9 @@ const quotes = [
   "Cornflakes. Cornflakes. Cornflakes, Cornflakes, Cornflakes. Cornflakes, Cornflakes, Cornflakes, Cornflakes!",
   "Oh, dear me! Poor old Neil's getting bored! The most boring person in the whole world is finally getting a taste of his own medicine!",
   "Guys! Guys! Look at us! Sqwabbling! Bickerwing, like children. What's happened to us? We never used to be like this!",
-  "You have won second prize in a beauty contest! Smash Rick over the head with the bank",
-  "Congratulations! It is your birthday! You may set fire to Rick's bed!",
-  "Get out of Jail free! You may keep this card, sell it, or stick it up Rick's bottom!",
+  "You have won second prize in a beauty contest! Smash Rik over the head with the bank",
+  "Congratulations! It is your birthday! You may set fire to Rik's bed!",
+  "Get out of Jail free! You may keep this card, sell it, or stick it up Rik's bottom!",
   "You know, living in a world where nothing boring ever happens can be a real pisser",
   "The King is bored shitless with interesting things, Minion, and so am I",
   "Ahem, don't worry, goldfish everywhere. I am in fact a stunt goldfish. In fact, by the time this program comes out, I will be doing the new James Bond film. So, there's no need to write in",
@@ -178,10 +178,10 @@ const quotes = [
   "Answer the phone, Neil!",
   "Hands up, who likes me!",
   "Vyv, Vyv, uh, can you, like, actually kill yourself with laxative pills?",
-  "This house will become a shrine! And punks and skins and Rastas will all gather round and all hold their hands in sorrow for their fallen leader! And all the grown-ups will say, 'But why are the kids crying?' And the kids will say, 'Haven't you heard? Rick is dead! The People's Poet is dead!",
+  "This house will become a shrine! And punks and skins and Rastas will all gather round and all hold their hands in sorrow for their fallen leader! And all the grown-ups will say, 'But why are the kids crying?' And the kids will say, 'Haven't you heard? Rik is dead! The People's Poet is dead!",
   "Don't look at me, I'm irrelevant",
   "Vyvyan, please! Will you both please try and grow up and pay attention? It's my story, it's bloody amusing...Honestly, I don't know why I bother, sometimes!",
-  "You haven't got a sister, Rick! You're the classic example of an only child!",
+  "You haven't got a sister, Rik! You're the classic example of an only child!",
   "Amazing! Absolutely amazing. Human beings the size of amoebas",
   "Help! I'm being hassled by a killer sock!",
   "Socks aren't vegetables, man, they should be wiped out!",
@@ -194,7 +194,7 @@ const quotes = [
   "Oh, cock-a-doodle-doo, Neil! What are you talking about?",
   "Swotting away for teacher like a total spazmo!",
   "I'm asking you to test me on it, not throw up on it!",
-  "Prick is a wonker. Signed, the rest of the class",
+  "PRik is a wonker. Signed, the rest of the class",
   "Shut up AND tell you the answer?",
   "Crop rotation in the 14th century was considerably more widespread after John?",
   "Do Not Lean Out of the Window. I wonder why?",
@@ -233,7 +233,7 @@ const quotes = [
   "What are you planning to do, photosynthesise?",
   "Yes, we've got a video!",
   "Oh, touche, Vyvyan. What devastating repartee. Talk about Oscar Wilde",
-  "Don't you dare say that Rick! Flares are coming back in! I read it in my horoscope!",
+  "Don't you dare say that Rik! Flares are coming back in! I read it in my horoscope!",
   "Let's raise a People's Army and seize control of the State!",
   "Oh no! The front door's exploded!",
   "Honestly! Whenever anything explodes in this house it's always blame Vyvyan!",
@@ -293,10 +293,10 @@ const quotes = [
   "I find the idea of spending a night with you completely revolting!",
   "Anyway, it just goes to show you, Neil. Even when I'm unconscious, I can pick up the birds. I mean, forge meaningful relationships with birds...chicks...tarts...women. Women!",
   "At one stage, she even took her bwa off!",
-  "I know what you're thinking, baby. And if I was the telly, you'd think I was talking in centimetres",
+  "I know what you're thinking, baby. And if I was to tell you, you'd think I was talking in centimetres",
   "Sounds like the kind of name someone would give to someone who looks as if they'd been to Hell and back, isn't it?",
   "Get down and groove! We dance all day in this house!",
-  "Rick, you bloody liar! You said you done it to her... He said he done it to you!",
+  "Rik, you bloody liar! You said you done it to her... He said he done it to you!",
   "I am not a virgin! I am not a virgin!",
   "Ah, you're a strapping young lad. Why don't you come sit on your Uncle Billy's knee?",
   "Good afternoon. This is the objective and strictly impartial BBC World Service, operating on behalf of the Conservative Party",
@@ -375,6 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
