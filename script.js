@@ -229,7 +229,6 @@ const quotes = [
   "What's this camera? Is this Game For A Laugh? Have you killed someone as a prank?",
   "Neil! The bathrooms free! Unlike the country under the Thatcher-ite junta!",
   "What do you know about the beans?,
-  "It's a bit cloudy, Rik",
   "Oh come off it Neil! Where's your spunk?!?",
   "What are you planning to do, photosynthesise?",
   "Yes, we've got a video!",
@@ -309,6 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
