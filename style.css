@@ -12,14 +12,11 @@ body {
 .top-graphic {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
 }
+
 .container {
   text-align: center;
   background: #222;
@@ -76,6 +73,7 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
 
