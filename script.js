@@ -270,7 +270,6 @@ const quotes = [
   "Goodness, how exciting! Are you an anarchist?",
   "Thanks, Doc?! Are you being sar-carstic or something, my son? That's one of my least favorite things, that happens to be. Sar-carsm",
   "Ha ha! Up yours, ugly!",
-  "I am now going to phone the authorities, right. And if they do not give me, within 20 minutes, a helicopter...100,000 pounds...a complete set of steak knives... in the presentation box... seven tickets to see the Brazilian National Mime Theatre at the Riverside Studios... a little can terrier named Bobby...one of them little black rubber things, you know them little black rubber things that go 'nee nee nee nee', yeah, a big box full of them, right...the complete memoirs of Donald Sinden... Otherwise, I'm gonna blow your heads off, alright?",
   "All hail McVyvyan, Thane of Corridor!",
   "All hail McVyvyan, Thane of the Outside Toilet, and that little gravelly patch next to the garden shed",
   "You'll have to watch out for me because I'm a bit nutty. Aren't I, everybody?! A bit nutty?",
@@ -308,6 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
