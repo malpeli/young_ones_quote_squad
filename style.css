@@ -7,11 +7,15 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding-top: 308px;
 }
 .top-graphic {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center
+  z-index: 1000;
 }
 .container {
   text-align: center;
@@ -69,6 +73,7 @@ button:hover {
   font-size: 0.8em;
   color: #888;
 }
+
 
 
 
