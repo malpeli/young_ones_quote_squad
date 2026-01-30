@@ -216,7 +216,7 @@ const quotes = [
   "Oh, no, guys, I'm just going to have to wee on Lord Snot's head!",
   "Who said, 'Lawks a lordy, my bottom's on fire'?",
   "I've got a Porsche!",
-  "Daddy sends hugs!"
+  "Daddy sends hugs!",
   "We're getting trashed, we're getting completely trashed! Isn't there some way we can cheat?",
   "Give us some easy ones, Bambi, you big bottom-boil!",
   "What is the record number of marshmallows stuffed up one nostril?",
@@ -232,7 +232,7 @@ const quotes = [
   "Oh come off it Neil! Where's your spunk?!",
   "What are you planning to do, photosynthesise?",
   "Yes, we've got a video!",
-  "Oh, touchÈ, Vyvyan. What devastating repartee. Talk about Oscar Wilde",
+  "Oh, touche, Vyvyan. What devastating repartee. Talk about Oscar Wilde",
   "Don't you dare say that Rick! Flares are coming back in! I read it in my horoscope!",
   "Let's raise a People's Army and seize control of the State!",
   "Oh no! The front door's exploded!",
@@ -308,6 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(facebookUrl, "_blank");
   });
 });
+
 
 
 
